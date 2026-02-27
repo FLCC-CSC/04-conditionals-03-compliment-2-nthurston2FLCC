@@ -1,8 +1,8 @@
 # FILE NAME - compliment_02.py
 
-# NAME: 
-# DATE: 
-# BRIEF DESCRIPTION:  
+# NAME: Nicholas Thurston
+# DATE: 2/26/2026
+# BRIEF DESCRIPTION:  Compliment Program 2
 
 
 
@@ -14,6 +14,27 @@
 
 
 ########## ENTER YER CODE BELOW THIS LINE ##########
+
+import random
+
+def main():
+    def compliment_2():
+
+        compliments = ['You look fantastic.','Somebody call Heaven because they\'re missing an angel!','That outfit is amazing!']
+
+        # ask if user would like a compliment
+        user_answer = str(input('Would you like a compliment? '))
+
+        # complimnet logic
+        if user_answer == 'yes':
+            print(random.choice(compliments))
+        else:
+            print('No compliment for you!')
+
+    compliment_2()
+main()
+
+        
 
 
 
@@ -71,7 +92,7 @@ Thank you for playing.
 
 1. Did you struggle with this lab (YES/NO)?
 
-
+NO
 
 
 
